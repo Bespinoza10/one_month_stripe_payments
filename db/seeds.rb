@@ -5,7 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+# AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
 growth_hacking = Product.create(title: "Growth Hacking", author: "Mattan Griffel", price: "4.99", sku: "GROWHACK1", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
