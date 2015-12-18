@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   # Support Stripe Payments through charges
   resources :charges
 
+  # Route for showing products
+  resources :products, only: [:index]
+
   # Route for showing purchases
   resources :purchases, only: [:show]
 

@@ -1,0 +1,16 @@
+<section id="products">
+  <article id="details-article" class="col-sm-12">
+    <h1 id="article-title">Our Courses<span class="font-weight-light"></span></h1>
+  </article>
+  <% @products.each do |product| %>
+    <div class="product clearfix">
+      <a href="product-detail.html">
+        <div class="product-image-container">
+          <img src="<%= asset_path product.thumbnail_image_name %>" alt="<%= product.title %>"/>
+          <span class="product-price">$<%= product.price %></span>
+        </div>
+        <p class="product-title"><%= product.title %></p>
+      </a>
+    </div>
+  <%end%>
+ </section>
