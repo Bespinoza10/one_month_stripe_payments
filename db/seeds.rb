@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 # AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", thumbnail_image_name: "product-growth-hacking.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "GROWHACK2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", thumbnail_image_name: "product-growth-hacking.png", header_image: "header-growth-hacking.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "GROWHACK2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
   <p>In this series, Mattan Griffel introduces you to the concept of Growth Hacking and shares his favorite tips for getting started as a growth hacker.</p>
   <p><strong>What You'll Learn</strong></p>
@@ -22,7 +22,8 @@ growth_hacking_monthly = Product.create(title: "Growth Hacking Monthly", thumbna
                 <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
 
-copywriting_monthly = Product.create(title: "Copywriting Monthly", thumbnail_image_name: "product-copywriting.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "COPYWRITE2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+copywriting_monthly = Product.create(title: "Copywriting Monthly", thumbnail_image_name: "product-copywriting.png", 
+  header_image: "header-copywriting.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "COPYWRITE2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
   <p>In this series, Mattan Griffel introduces you to the concept of Copywriting and shares his favorite tips for getting started as a growth hacker.</p>
   <p><strong>What You'll Learn</strong></p>
@@ -34,7 +35,7 @@ copywriting_monthly = Product.create(title: "Copywriting Monthly", thumbnail_ima
                 </p>
                 <p>Follow me on Twitter <a href="https://twitter.com/mattangriffel" target="_blank">@mattangriffel</a></p>})
 
-analytics_monthly = Product.create(title: "Analytics Monthly", thumbnail_image_name: "product-analytics.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "ANALYTICS2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
+analytics_monthly = Product.create(title: "Analytics Monthly", thumbnail_image_name: "product-analytics.png", header_image: "header-analytics.png", subtitle: "Ongoing Course", author: "Mattan Griffel", length:"6 months minutes", author_image_name: "teacher-image.jpg", price: "4.99", sku: "ANALYTICS2", download_url: "https://s3.amazonaws.com/stripe-payments/resume_1.pdf", details: "We'll charge you monthly for unlimited acces to our mentoring team", description: %{<p>A growth hacker is a rare combination: someone with the right marketing and technical skills who can come up with clever marketing hacks and also track their results.</p>
 
   <p>In this series, Mattan Griffel introduces you to the concept of Analytics and shares his favorite tips for getting started as a growth hacker.</p>
   <p><strong>What You'll Learn</strong></p>
